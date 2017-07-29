@@ -1,6 +1,6 @@
 # chat-app
 
-This a simple chat app demo.
+This is a simple chat app demo.
 
 The frontend is mainly using AngularJS,
 the backend is running on top of NodeJS, and
