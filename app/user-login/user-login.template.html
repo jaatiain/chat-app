@@ -1,0 +1,15 @@
+<div class="container-fluid login-header">
+  <div class="pull-left">CHAT APP</div>
+</div>
+<div class="container-fluid">
+  <div class="text">User name</div>
+  <div class="login-frame">
+    <form name="submitUserForm">
+      <div class="outer">
+        <div><input name="userField" type="text" class="input" ng-model="$ctrl.user" required=""/></div>
+        <button type="button" class="btn btn-primary button2" ng-click="$ctrl.login()"
+        ng-disabled="submitUserForm.userField.$invalid">Sign in</button>
+      </div>
+    </form>
+  </div>
+</div>

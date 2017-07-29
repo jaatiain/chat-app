@@ -1,0 +1,37 @@
+<div class="container-fluid chat-header">
+  <div class="pull-left chat-header-title">CHAT APP</div>
+  <div class="pull-right chat-header-info">
+      <div class="chat-header-label text-muted">Signed in as: {{$ctrl.user}}</div>
+      <button type="button" class="btn btn-primary button" ng-click="$ctrl.logout()">Sign out</button>
+    </div>
+</div>
+<div class="container-fluid chat-container">
+  <div class="row content">
+    <div class="col-sm-3 sidenav">
+      <div class="text">Current users</div>
+      <div class="pre-scrollable">
+        <ul class="list">
+          <li ng-repeat="u in $ctrl.users">{{u}}</li>
+        </ul>
+      </div>
+    </div>
+    <div class="col-sm-9 chat">
+      <div class="text">Chat</div>
+      <div id="autoscroll" class="pre-scrollable list-border">
+        <ul class="list">
+          <li ng-repeat="m in $ctrl.messages track by $index">{{m}}</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container-fluid chat-footer">
+  <div class="text">Message</div>
+  <form name="submitMsgForm">
+    <div class="outer">
+      <div><input name="messageField" type="text" class="inputMsg" ng-model="$ctrl.message" required=""/></div>
+      <button type="button" class="btn btn-primary button2" ng-click="$ctrl.sendMessage()"
+      ng-disabled="submitMsgForm.messageField.$invalid">Submit</button>
+    </div>
+  </from>
+</div>

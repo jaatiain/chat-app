@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="chatApp">
+  <head>
+    <title>Chat App</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="/app.css" />
+
+    <script src="/angular/angular.min.js"></script>
+    <script src="/angular-route/angular-route.min.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+
+    <script src="/app.module.js"></script>
+    <script src="/app.config.js"></script>
+    <script src="/services/user.module.js"></script>
+    <script src="/services/user.service.js"></script>
+    <script src="/services/socket.module.js"></script>
+    <script src="/services/socket.service.js"></script>
+    <script src="/user-login/user-login.module.js"></script>
+    <script src="/user-login/user-login.component.js"></script>
+    <script src="/chat-view/chat-view.module.js"></script>
+    <script src="/chat-view/chat-view.component.js"></script>
+  </head>
+
+  <body >
+    <div >
+      <div ng-view></div>
+    </div>
+  </body>
+</html>
