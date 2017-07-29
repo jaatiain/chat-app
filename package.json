@@ -1,0 +1,17 @@
+{
+  "name": "angular-chatApp",
+  "private": true,
+  "version": "0.0.1",
+  "description": "A chat demo for AngularJS",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "angular": "^1.5.11",
+    "angular-route": "^1.5.11",
+    "bootstrap": "^3.3.7",
+    "express": "^4.15.3",
+    "socket.io": "^2.0.3"
+  }
+}

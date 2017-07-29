@@ -1,0 +1,177 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+}
+
+.login-header {
+  color: rgb(135, 135, 135);
+  background-color: rgb(34, 34, 34);
+  border: none;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.chat-header {
+  color: rgb(135, 135, 135);
+  background-color: rgb(34, 34, 34);
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.chat-container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.chat-footer {
+  border-top: 1px dashed black;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.chat-header-info {
+  display: table;
+}
+
+.chat-header-info > * {
+  display: table-cell;
+}
+
+.chat-header-label {
+  padding-right: 20px;
+  font-style: italic;
+  font-size: 12px;
+  color: rgb(135, 135, 135);
+}
+
+.chat-header-title {
+  margin-top: 10px;
+}
+
+.text {
+  font-size: 12px;
+  color: grey;
+}
+
+.input {
+  border-style: solid;
+  border-color: grey;
+  border-width: 1px;
+  border-radius: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.button {
+  border-style: none;
+  border-radius: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: auto;
+}
+
+.inputMsg {
+  border-style: solid;
+  border-color: grey;
+  border-width: 1px;
+  border-radius: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.button2 {
+  border-style: none;
+  border-radius: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 20px;
+  margin-bottom: 5px;
+  width: auto;
+}
+
+.login-frame {
+  /*max-width:600px;*/
+}
+
+.row.content {
+  height: 400px;
+}
+
+.list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.chat {
+  height: 100%;
+}
+
+.list-border {
+  min-height: 380px;
+  border-style: solid;
+  border-color: lightgrey;
+  border-width: 1px;
+  border-radius: 5px;
+  overflow-y:scroll;
+  overflow-x:scroll;
+}
+
+/* */
+.outer {
+  display: table;
+  width: 100%;
+}
+
+.outer > * {
+  display: table-cell;
+}
+
+.outer > div  {
+  width: 100%;
+}
+.outer > div > input {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.sidenav {
+   height: 100%;
+   overflow-y:auto;
+   overflow-x:auto;
+ }
+
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 767px) {
+ .sidenav {
+   height: auto;
+   padding: 15px;
+ }
+ .row.content {height: auto;}
+}
