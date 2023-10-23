@@ -4,7 +4,7 @@ This is a simple chat app demo.
 
 The frontend is mainly using AngularJS,
 the backend is running on top of NodeJS, and
-The communication between a client and
+communication between a client and
 a server is based on SocketIO.  
 
 The backend does not store chat history.
